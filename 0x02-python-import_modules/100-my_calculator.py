@@ -12,7 +12,7 @@ if __name__ == '__main__':
         print("Unknown operator. Available operators: +, -, * and /")
         sys.exit(1)
 
-    from calculator_1.py import add, mul, sub, div
+    from calculator_1 import add, mul, sub, div
     a = int(sys.argv[1])
     b = int(sys.argv[3])
 
