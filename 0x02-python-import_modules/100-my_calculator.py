@@ -1,5 +1,7 @@
+#!/usr/bin/python3
 if __name__ == '__main__':
     import sys
+    
     number_args = len(sys.argv) - 1
     if number_args != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
