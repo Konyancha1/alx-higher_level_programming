@@ -26,4 +26,3 @@ if __name__ == '__main__':
 
     else:
         print("{} - {} = {}".format(a, b, sub(a, b)))
-
